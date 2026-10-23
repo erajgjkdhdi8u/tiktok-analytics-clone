@@ -68,37 +68,11 @@
 
 .viewer-total-note{font-size:12px;gap:4px}.viewer-total-note.is-zero{color:#a7a7a7}.viewer-change-zero{font-size:12px;font-weight:400;color:#a7a7a7}.viewer-total-note.is-positive .viewer-change-number{font-size:13px}.viewer-change-description{font-size:12px}
 
-/* v36: let the entire top area scroll naturally with the page */
-.top{position:relative!important;top:auto!important}
-.nav{position:relative!important;top:auto!important}
-
-/* v37: slightly smaller TikTok Studio pill */
+/* Single native two-stage sticky header: title sticks first; tabs stick after reaching it. */
+html,body{height:auto;overflow-x:hidden;overflow-y:auto}
+#app>.app{height:auto;overflow:visible;min-height:100vh}
+#app>.app>.top{height:50px;position:sticky;top:0;z-index:30;background:#f5f5f5}
+#app>.app>.nav{position:sticky;top:50px;z-index:29;background:#f5f5f5}
 .top .studio{font-size:11px;padding:7px 8px;gap:4px;border-radius:24px}
 .top .studio .ui-icon{width:15px;height:15px}
 @media(max-width:375px){.top .studio{font-size:10px;padding:6px 7px}.top .studio .ui-icon{width:14px;height:14px}}
-
-/* v38: the header is normal document content, never a fixed or sticky overlay */
-html,body{height:auto;overflow-y:auto}
-.app{height:auto;overflow:visible}
-.app>.top{position:static!important;inset:auto!important;transform:none!important;z-index:auto!important}
-.app>.nav{position:static!important;inset:auto!important;transform:none!important}
-
-/* v39: both analytics header and all four tab labels scroll away together */
-body .app > header.top,body .app > nav.nav{position:static!important;top:auto!important;bottom:auto!important;left:auto!important;right:auto!important;will-change:auto!important}
-body .app > nav.nav{z-index:auto!important}
-
-/* v41: unified upper section, scrolls as one regular document block */
-.scroll-header-group{display:block;position:static!important;overflow:visible!important;transform:none!important}
-.scroll-header-group>.top,.scroll-header-group>.nav{position:static!important;top:auto!important;bottom:auto!important;transform:none!important}
-
-/* v43: overlay duplicates both bars as one unit only after main tabs scroll past */
-body #app .app>.top,body #app .app>.nav{position:static!important;top:auto!important}
-.floating-chrome{display:none;position:fixed;left:50%;top:0;transform:translateX(-50%);width:min(100%,500px);z-index:100;background:#f5f5f5;box-shadow:0 2px 5px #00000012}
-.floating-chrome.visible{display:block}
-.floating-chrome>.top,.floating-chrome>.nav{position:static!important;top:auto!important;background:#f5f5f5}
-
-/* v44: initially pin title alone, then reveal navigation underneath when reached */
-.floating-chrome>.nav{display:none!important}
-.floating-chrome.tabs-visible>.nav{display:flex!important}
-.floating-chrome.visible{box-shadow:none}
-.floating-chrome.tabs-visible{box-shadow:0 2px 5px #00000012}
