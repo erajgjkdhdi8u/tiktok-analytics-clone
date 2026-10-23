@@ -40,3 +40,7 @@
 
 /* Finer, shorter TikTok metric separators */
 .action:not(:last-child)::after{width:.5px;height:17px;top:10px;background:#e8e8e8}
+
+/* v29: scale down analytics icons to match TikTok reference */
+.action .ui-icon{width:20px;height:20px}
+.studio .ui-icon{width:17px;height:17px}
