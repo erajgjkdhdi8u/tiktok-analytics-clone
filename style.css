@@ -65,3 +65,5 @@
 .viewer-change-icon{width:13px!important;height:13px!important;font-size:10px!important}
 .viewer-change-number{font-size:12px!important;font-weight:700}
 .viewer-change-description{font-size:11px!important;color:#aaa}
+
+.viewer-total-note{font-size:12px;gap:4px}.viewer-total-note.is-zero{color:#a7a7a7}.viewer-change-zero{font-size:12px;font-weight:400;color:#a7a7a7}.viewer-total-note.is-positive .viewer-change-number{font-size:13px}.viewer-change-description{font-size:12px}
