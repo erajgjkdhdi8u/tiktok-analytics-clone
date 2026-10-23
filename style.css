@@ -34,3 +34,6 @@
 
 /* SVG icons matched to TikTok analytics silhouette */
 .ui-icon{display:block;width:24px;height:24px;fill:currentColor;flex:none}.studio{display:inline-flex;align-items:center;gap:5px;font-weight:650}.studio .ui-icon{height:19px;width:19px;color:#080808}.action{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font-size:16px;color:#ababab}.action .ui-icon{width:24px;height:24px}.action div{font-size:16px;margin-top:3px;color:#444}
+
+/* TikTok analytics: subtle separators between five metrics */
+.actions{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));align-items:center}.action{position:relative;min-width:0}.action:not(:last-child)::after{content:"";position:absolute;right:0;top:6px;width:1px;height:27px;background:#e3e3e3;pointer-events:none}
