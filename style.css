@@ -82,3 +82,7 @@ html,body{height:auto;overflow-y:auto}
 .app{height:auto;overflow:visible}
 .app>.top{position:static!important;inset:auto!important;transform:none!important;z-index:auto!important}
 .app>.nav{position:static!important;inset:auto!important;transform:none!important}
+
+/* v39: both analytics header and all four tab labels scroll away together */
+body .app > header.top,body .app > nav.nav{position:static!important;top:auto!important;bottom:auto!important;left:auto!important;right:auto!important;will-change:auto!important}
+body .app > nav.nav{z-index:auto!important}
