@@ -59,3 +59,9 @@
 .viewer-change-icon{display:inline-flex;align-items:center;justify-content:center;flex:none;width:16px;height:16px;border-radius:50%;background:#087add;color:white;font-weight:700;font-size:13px;line-height:1}
 .viewer-change-number{color:#087add;font-weight:700}
 .viewer-change-description{color:#aaa}
+
+/* v34 compact TikTok comparison indicator */
+.viewer-total-note{font-size:11px!important;gap:4px!important;margin-top:5px!important;line-height:1.15!important}
+.viewer-change-icon{width:13px!important;height:13px!important;font-size:10px!important}
+.viewer-change-number{font-size:12px!important;font-weight:700}
+.viewer-change-description{font-size:11px!important;color:#aaa}
