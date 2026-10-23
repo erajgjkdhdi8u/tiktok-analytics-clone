@@ -31,3 +31,6 @@
 .video-cover-wrap .empty-cover>span{display:none!important}
 .video-cover-wrap .cover{height:100%;object-fit:cover}
 .cover-duration{bottom:6px}
+
+/* SVG icons matched to TikTok analytics silhouette */
+.ui-icon{display:block;width:24px;height:24px;fill:currentColor;flex:none}.studio{display:inline-flex;align-items:center;gap:5px;font-weight:650}.studio .ui-icon{height:19px;width:19px;color:#080808}.action{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font-size:16px;color:#ababab}.action .ui-icon{width:24px;height:24px}.action div{font-size:16px;margin-top:3px;color:#444}
