@@ -67,3 +67,7 @@
 .viewer-change-description{font-size:11px!important;color:#aaa}
 
 .viewer-total-note{font-size:12px;gap:4px}.viewer-total-note.is-zero{color:#a7a7a7}.viewer-change-zero{font-size:12px;font-weight:400;color:#a7a7a7}.viewer-total-note.is-positive .viewer-change-number{font-size:13px}.viewer-change-description{font-size:12px}
+
+/* v36: let the entire top area scroll naturally with the page */
+.top{position:relative!important;top:auto!important}
+.nav{position:relative!important;top:auto!important}
