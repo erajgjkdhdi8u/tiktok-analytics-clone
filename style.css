@@ -50,3 +50,12 @@
 .card:has(.viewer-total-count) h2{margin-bottom:7px}
 .viewer-total-count{font-size:30px;font-weight:750;line-height:1.12}
 .viewer-total-note{margin:4px 0 0!important;line-height:1.3}
+
+/* Reference: compact total-viewers card with blue daily change */
+.card:has(.viewer-total-count){padding:15px 14px 14px}
+.card:has(.viewer-total-count) h2{margin-bottom:5px;line-height:1.22}
+.viewer-total-count{font-size:34px;font-weight:750;line-height:1.1;color:#080808}
+.viewer-total-note{display:flex;align-items:center;gap:6px;margin:8px 0 0!important;font-size:13px;line-height:1.25;white-space:normal}
+.viewer-change-icon{display:inline-flex;align-items:center;justify-content:center;flex:none;width:16px;height:16px;border-radius:50%;background:#087add;color:white;font-weight:700;font-size:13px;line-height:1}
+.viewer-change-number{color:#087add;font-weight:700}
+.viewer-change-description{color:#aaa}
