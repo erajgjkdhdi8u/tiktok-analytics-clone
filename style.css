@@ -24,3 +24,10 @@
 .top h1{font-size:18px;font-weight:700;letter-spacing:-.25px}
 .studio{font-size:12px;font-weight:650}
 @media(max-width:375px){.top h1{font-size:17px}.studio{font-size:11px;font-weight:650}}
+
+/* v22: TikTok top cover has no play icon; reduce vertical proportion */
+.video-cover-wrap{width:96px;height:125px}
+.video-cover-wrap::after{content:none!important;display:none!important}
+.video-cover-wrap .empty-cover>span{display:none!important}
+.video-cover-wrap .cover{height:100%;object-fit:cover}
+.cover-duration{bottom:6px}
