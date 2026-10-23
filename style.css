@@ -44,3 +44,9 @@
 /* v29: scale down analytics icons to match TikTok reference */
 .action .ui-icon{width:20px;height:20px}
 .studio .ui-icon{width:17px;height:17px}
+
+/* Compact the total-viewers card to match TikTok spacing */
+.card:has(.viewer-total-count){padding-top:13px;padding-bottom:12px}
+.card:has(.viewer-total-count) h2{margin-bottom:7px}
+.viewer-total-count{font-size:30px;font-weight:750;line-height:1.12}
+.viewer-total-note{margin:4px 0 0!important;line-height:1.3}
