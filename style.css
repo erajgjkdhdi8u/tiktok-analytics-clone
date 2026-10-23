@@ -37,3 +37,6 @@
 
 /* TikTok analytics: subtle separators between five metrics */
 .actions{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));align-items:center}.action{position:relative;min-width:0}.action:not(:last-child)::after{content:"";position:absolute;right:0;top:6px;width:1px;height:27px;background:#e3e3e3;pointer-events:none}
+
+/* Finer, shorter TikTok metric separators */
+.action:not(:last-child)::after{width:.5px;height:17px;top:10px;background:#e8e8e8}
