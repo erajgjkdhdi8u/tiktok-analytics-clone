@@ -72,3 +72,6 @@ body{background:#f5f5f5}
 .pairtrack{height:13px;border-radius:3px}
 .pairnums{font-weight:650}
 .pairnames{color:#777}
+
+/* Engagement section v8 */
+.empty-comments{text-align:center;color:#a0a0a0;padding:28px 12px 34px;font-size:14px;line-height:1.6}.empty-comments p{margin:3px 0}.empty-icon{display:block;font-size:30px;line-height:1;margin-bottom:15px;color:#b6b6b6}.likes-description{margin-top:-4px;color:#747474}.likes-preview{display:flex;justify-content:center;align-items:center;margin:14px 0 25px}.likes-preview .preview{margin:0;width:181px;height:288px;border-radius:4px}.likes-footer{text-align:center;font-size:13px;color:#aaa;padding:6px 0 3px}
