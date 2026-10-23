@@ -90,3 +90,9 @@ body .app > nav.nav{z-index:auto!important}
 /* v41: unified upper section, scrolls as one regular document block */
 .scroll-header-group{display:block;position:static!important;overflow:visible!important;transform:none!important}
 .scroll-header-group>.top,.scroll-header-group>.nav{position:static!important;top:auto!important;bottom:auto!important;transform:none!important}
+
+/* v43: overlay duplicates both bars as one unit only after main tabs scroll past */
+body #app .app>.top,body #app .app>.nav{position:static!important;top:auto!important}
+.floating-chrome{display:none;position:fixed;left:50%;top:0;transform:translateX(-50%);width:min(100%,500px);z-index:100;background:#f5f5f5;box-shadow:0 2px 5px #00000012}
+.floating-chrome.visible{display:block}
+.floating-chrome>.top,.floating-chrome>.nav{position:static!important;top:auto!important;background:#f5f5f5}
