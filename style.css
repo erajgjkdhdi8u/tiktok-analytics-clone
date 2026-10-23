@@ -71,3 +71,8 @@
 /* v36: let the entire top area scroll naturally with the page */
 .top{position:relative!important;top:auto!important}
 .nav{position:relative!important;top:auto!important}
+
+/* v37: slightly smaller TikTok Studio pill */
+.top .studio{font-size:11px;padding:7px 8px;gap:4px;border-radius:24px}
+.top .studio .ui-icon{width:15px;height:15px}
+@media(max-width:375px){.top .studio{font-size:10px;padding:6px 7px}.top .studio .ui-icon{width:14px;height:14px}}
