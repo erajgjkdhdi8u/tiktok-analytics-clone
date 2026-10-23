@@ -55,3 +55,5 @@ body{background:#f5f5f5}
 .barrow{margin:19px 0 23px}
 .track{height:11px}
 @media(max-width:390px){.metric{padding:10px}.metric .value[style]{font-size:clamp(12px,3.45vw,16px)!important}.top{padding:0 12px}.studio{font-size:11px}}
+
+.chart-wrap{position:relative}.chart-detail{font-size:12px;color:#8c8c8c;text-align:center;padding:3px 0 6px;min-height:23px}.chart-point{cursor:pointer;touch-action:manipulation}.chart-point:focus-visible{stroke:#087ade;fill:white}.editrow input[type=file]{font-size:13px;width:100%;background:#f7f7f7}.videohead .cover,.preview{object-position:center;object-fit:cover}
